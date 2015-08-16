@@ -1,0 +1,38 @@
+{
+  "name": "Match3Bacons",
+  "version": "1.0.0",
+  "description": "A Match3 game template using bacon.js",
+  "keywords": [
+    "match3",
+    "javascript",
+    "bacon.js",
+    "frp",
+    "reactive",
+    "programming",
+    "functional"
+  ],
+  "author": {
+    "name": "Sami Jaatinen",
+    "email": "sami.jaatinen@iki.fi",
+    "url": "https://twitter.com/SamiJaatinen"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "amdefine": ">=0.1.0",
+    "baconjs": "~0.7.70",
+    "bacon.jquery": "~0.4.11",
+    "bacon.model": "~0.1.12",
+    "jquery": "~2.1.1",
+    "requirejs": "~2.1.15",
+    "underscore": "~1.7.0"
+  },
+
+  "devDependencies": {
+    "mocha": "~2.2.1",
+    "should": "~5.2.0"
+  },
+
+  "scripts": {
+    "test": "mocha match3/test/"
+  }
+}

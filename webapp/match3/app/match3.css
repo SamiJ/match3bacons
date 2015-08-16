@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+}
+h1 img {
+    height: 48px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 500px;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.score, .high-score, .time {
+    height: 50px;
+    min-height: 50px;
+    font-family: fantasy;
+    font-size: 24px;
+    width: 250px;
+}
+
+.score {
+    position: relative;
+    left: 20px;
+}
+
+.high-score {
+    position: relative;
+    left: -20px;
+    text-align: right;
+}
+
+.gameArea {
+    position: relative;
+    height: 500px;
+}
+
+.time {
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+.piece {
+    height: 100px;
+    width: 100px;
+    /*border-radius: 50%;*/
+    position: absolute;
+    margin: 4px;
+}
+
+.pig {
+    background: url('svg/pig.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.goat {
+    background: url('svg/goat.svg');;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.giraffe {
+    background: url('svg/giraffe.svg');;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.chicken {
+    background: url('svg/chicken.svg');;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.highlight {
+    opacity: .5!important;
+    }
