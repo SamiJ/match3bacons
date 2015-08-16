@@ -4,6 +4,8 @@
 
 A Match 3 game that you can run in your browser. Herd the animals for points and time bonus, extra points for matching pigs!
 
+<a href="https://rawgit.com/SamiJ/match3bacons/master/webapp/match3/index.html" target="_blank">Try it live</a>
+
 ##Features:
 * Fully playable game
 * Scoring with persistent high score
