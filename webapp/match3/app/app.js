@@ -32,7 +32,6 @@ define(function (require) {
     var $score = $('.score')
     var $timer = $('.time')
 
-
 // event streams
     var matchesBus = new Bacon.Bus()
 

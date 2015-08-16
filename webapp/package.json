@@ -33,6 +33,7 @@
   },
 
   "scripts": {
-    "test": "mocha match3/test/"
+    "test": "mocha match3/test/",
+    "prepublish": "./node_modules/requirejs/bin/r.js -o build.js"
   }
 }
